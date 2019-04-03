@@ -24,7 +24,21 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal"
+      "uilayout": "terminal-terminal"
+  },
+  "assets": {
+      "host01": [
+          {
+              "file": "install-kubeadm.sh",
+              "target": "~/"
+          }
+      ],
+      "host02": [
+          {
+              "file": "install-kubeadm.sh",
+              "target": "~/"
+          }
+      ]
   },
   "backend": {
     "imageid": "ubuntu"
