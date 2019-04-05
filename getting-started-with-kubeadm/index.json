@@ -44,7 +44,7 @@
             "text": "finish.md"
         },
         "assets": {
-            "host01": [{"file": "dashboard.yaml", "target": "/root"}]
+            "host01": [{"file": "dashboard.yaml", "target": "/root"}],
             "host02": [{"file": "dashboard.yaml", "target": "/root"}]
         }
     },
