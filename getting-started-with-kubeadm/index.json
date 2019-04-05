@@ -44,8 +44,24 @@
             "text": "finish.md"
         },
         "assets": {
-            "host01": [{"file": "dashboard.yaml",
-                        "target": "~/"}]
+            "host01": [
+                {
+                    "file": "dashboard.yaml",
+                    "target": "~/"
+                },
+                {
+                    "file": "kube-flannel.yaml",
+                    "target": "~/"
+                },
+                {
+                    "file": "calico.yaml",
+                    "target": "~/"
+                },
+                {
+                    "file": "rbac-kdd.yaml",
+                    "target": "~/"
+                }
+            ]
         }
     },
     "environment": {
