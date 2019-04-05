@@ -1,7 +1,7 @@
 {
     "pathwayTitle": "Kubernetes",
     "title": "Getting Started With Kubeadm",
-    "description": "Learn how to deploy a Kubeadm cluster",
+    "description": "Learn how to deploy a Kubernertes Cluster using Kubeadm",
     "difficulty": "intermediate",
     "time": "10-15 minutes",
     "details": {
@@ -11,7 +11,7 @@
                 "text": "step1.md"
             },
             {
-                "title": "Step 2 - Join Cluster",
+                "title": "Step 2 - Join a Worker to the Cluster",
                 "text": "step2.md"
             },
             {
@@ -38,18 +38,21 @@
         "intro": {
             "text": "intro.md",
             "courseData": "courseBase.sh",
-            "credits": ""
+            "credits": "Ben Hall @ Katacoda"
         },
         "finish": {
             "text": "finish.md"
         },
         "assets": {
-          "host01": [{"file": "dashboard.yaml", "target": "/root"}]
+            "host01": [{"file": "dashboard.yaml", "target": "/root"}]
+            "host02": [{"file": "dashboard.yaml", "target": "/root"}]
         }
     },
     "environment": {
+        "showdashboard": true,
+        "dashboards": [{"name": "Dash", "port": 8080}],
         "uilayout": "terminal-terminal",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+        "uimessage1": "\u001b[32mInteractive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
     },
     "backend": {
       "imageid": "kubernetes-cluster"
