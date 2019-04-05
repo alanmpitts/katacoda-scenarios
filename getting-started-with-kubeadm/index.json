@@ -45,12 +45,6 @@
         },
         "assets": {
             "host01": [{"file": "dashboard.yaml",
-                        "target": "~/"},
-                       {"file": "kube-flannel.yaml",
-                        "target": "~/"},
-                       {"file": "rbac-kdd.yaml",
-                        "target": "~/"},
-                       {"file": "calico.yaml",
                         "target": "~/"}]
         }
     },
