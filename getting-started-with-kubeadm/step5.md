@@ -8,11 +8,9 @@ the workloads.
 The command below create a Pod based on the Docker Image
 _katacoda/docker-http-server_.
 
-`kubectl run http --image=katacoda/docker-http-server:latest
---replicas=1`{{execute HOST1}}
+`kubectl run http --image=katacoda/docker-http-server:latest --replicas=1`{{execute HOST1}}
 
-The status of the Pod creation can be viewed using `kubectl get
-pods`{{execute HOST1}}
+The status of the Pod creation can be viewed using `kubectl get pods`{{execute HOST1}}
 
 Once running, you can see the Docker Container running on the node.
 
